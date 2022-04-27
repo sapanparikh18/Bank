@@ -14,3 +14,7 @@ netty:
   default:
     allocator:
       max-order: 3
+jpa:
+  default:
+    entity-scan:
+      packages: 'org.incubyte.bank'
