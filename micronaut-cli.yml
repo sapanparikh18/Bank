@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: org.incubyte.bank
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, assertj, data, data-jpa, github-workflow-azure-container-instance, gradle, h2, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, liquibase, logback, micronaut-build, mockito, netty-server, readme, shade, yaml]
