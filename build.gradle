@@ -25,8 +25,8 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     testImplementation("org.assertj:assertj-core")
     implementation("io.micronaut:micronaut-validation")
-
-    testImplementation("org.mockito:mockito-core")
+    testImplementation 'org.mockito:mockito-junit-jupiter:2.23.0'
+    testImplementation 'org.mockito:mockito-core:4.1.0'
 
 }
 
