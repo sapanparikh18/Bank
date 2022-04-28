@@ -38,7 +38,7 @@ jobs:
 
   publish-reports:
     name: "Publish Unit Tests Results"
-    needs: build-and-test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Publish Unit Test Results
