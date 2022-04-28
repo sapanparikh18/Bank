@@ -57,5 +57,3 @@ micronaut {
         annotations("org.incubyte.bank.*")
     }
 }
-
-
